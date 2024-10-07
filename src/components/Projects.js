@@ -1,8 +1,15 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/5.png";
+import projImg2 from "../assets/img/2.png";
+import projImg3 from "../assets/img/1.png";
+import projImg4 from "../assets/img/6.png";
+import projImg5 from "../assets/img/7.png";
+import projImg6 from "../assets/img/10.png";
+
+
+
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,37 +19,37 @@ export const Projects = () => {
   const projects = [
     {
       title: " AFRICA URBAN FORUM  ",
-      description: "As Team Leader",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Sirkuni App Landing Page",
-      description: "Design & Development",
+      description: "check https://auf.gov.et",
       imgUrl: projImg2,
     },
     {
+      title: "Sirkuni App Landing Page",
+      description: "check https://appstore.et",
+      imgUrl: projImg5,
+    },
+    {
       title: "Fast Time Express",
-      description: "Design & Development",
+      description: "check http://busmanagement.fasttimeexpress.net",
       imgUrl: projImg3,
     },
     {
       title: "DMU OSC",
-      description: "Design & Development",
+      description: "One Card System for DMU",
       imgUrl: projImg1,
     },
     {
-      title: "NZk Fule Mangmete System",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "NZk System",
+      description: "Fule Mangmetion System for INSA",
+      imgUrl: projImg4,
     },
     {
-      title: "move dowland",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Ethio-Addis Idea",
+      description: "Transforming Ideas into Business Success! ",
+      imgUrl: projImg6,
     },
   ];
 
-  return (
+  return (    
     <section className="project" id="projects">
       <Container>
         <Row>
@@ -80,7 +87,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section"> 
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p> */}
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
    <p>"Thank you for taking the time to review my portfolio. I appreciate your interest in my work and hope that you found it both engaging and informative. If you have any questions or require further information, please do not hesitate to reach out. I look forward to the possibility of collaborating in the future."
